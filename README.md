@@ -1,2 +1,2 @@
 # TypeScript
-This is my types script course
+This is my typescript course
