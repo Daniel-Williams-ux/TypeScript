@@ -27,3 +27,10 @@ console.log(firstName)
 Implicit Type
 Implicit - TypeScript will "guess" the type, based on the assigned value:
 */
+
+/*Note: Having TypeScript "guess" the type of a value is called infer.
+
+Implicit assignment forces TypeScript to infer the value.
+
+Implicit type assignment are shorter, faster to type, and often used when developing and testing.*/
+
