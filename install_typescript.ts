@@ -1,25 +1,20 @@
-TypeScript Compiler
-TypeScript is transpiled into JavaScript using a compiler.
+// You might already have TypeScript installed on your machine. You can check by opening the Command Prompt window and entering tsc. 
+// If TypeScript is installed, you'll see the version and a list of compiler commands. You're now ready to use TypeScript!
 
-TypeScript being converted into JavaScript means it runs anywhere that JavaScript runs!
+// If TypeScript isn't installed, you'll see a message that the command isn't recognized. If so, continue to the next step of the exercise.
 
-Installing the Compiler
-TypeScript has an official compiler which can be installed through npm.
+// Install Node Package Manager (npm)
+// If npm isn't installed, you'll see a message that the command isn't recognized. To install Node.js:
 
-Learn more about npm, and how to get started here: What is npm?
+// Go to the Node.js Downloads page.
 
-Within your npm project, run the following command to install the compiler:
+// Select any of the available versions of Node.js to download and install it.
 
-npm install typescript --save-dev
-Which should give you an output similar to:
+// To verify that npm is installed, open the Command Prompt window, and then enter npm version.
 
-added 1 package, and audited 2 packages in 2s
-found 0 vulnerabilities
-The compiler is installed in the node_modules directory and can be run with: npx tsc.
+//   Install TypeScript
+// TypeScript is available as a package in the npm registry as typescript. To install the latest version of TypeScript:
 
-npx tsc
-Which should give you an output similar to:
-
-Version 4.5.5
-tsc: The TypeScript Compiler - Version 4.5.5
-Followed by a list of all the Commmon Commands.
+// In the Command Prompt window, enter 
+npm install -g typescript.
+// Enter tsc to confirm that TypeScript is installed. If it was successfully installed, this command should show a list of compiler commands and options.
